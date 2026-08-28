@@ -35,7 +35,7 @@ export function Header() {
         scrolled ? "border-b border-border/70 bg-white/90 backdrop-blur-md shadow-soft" : "bg-transparent",
       )}
     >
-      <div className="mx-auto grid max-w-7xl grid-cols-[minmax(0,1fr)_auto] items-center gap-4 px-4 py-3 sm:px-6 lg:px-8">
+      <div className="mx-auto flex max-w-7xl items-center justify-between gap-4 px-4 py-3 sm:px-6 lg:px-8">
         <button type="button" onClick={() => go("home")} className="min-w-0 justify-self-start" aria-label="M2G home">
           <Logo />
         </button>
