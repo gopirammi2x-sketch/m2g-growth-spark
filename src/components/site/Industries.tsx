@@ -1,28 +1,26 @@
-import {
-  Building2,
-  Car,
-  Dumbbell,
-  Factory,
-  GraduationCap,
-  Home,
-  Scissors,
-  ShoppingCart,
-  Sparkles,
-  Stethoscope,
-} from "lucide-react";
 import { Reveal, SectionHeading } from "./shared";
+import manufacturing from "@/assets/ind-manufacturing.webp";
+import healthcare from "@/assets/ind-healthcare.webp";
+import salon from "@/assets/ind-salon.webp";
+import gym from "@/assets/ind-gym.webp";
+import retail from "@/assets/ind-retail.webp";
+import realestate from "@/assets/ind-realestate.webp";
+import education from "@/assets/ind-education.webp";
+import professional from "@/assets/ind-professional.webp";
+import automotive from "@/assets/ind-automotive.webp";
+import other from "@/assets/ind-other.webp";
 
 const INDUSTRIES = [
-  { icon: Factory, label: "Manufacturing" },
-  { icon: Stethoscope, label: "Healthcare & Clinics" },
-  { icon: Scissors, label: "Salons & Beauty" },
-  { icon: Dumbbell, label: "Gyms & Fitness" },
-  { icon: ShoppingCart, label: "Retail & Supermarkets" },
-  { icon: Home, label: "Real Estate" },
-  { icon: GraduationCap, label: "Education" },
-  { icon: Building2, label: "Professional Services" },
-  { icon: Car, label: "Automotive" },
-  { icon: Sparkles, label: "Other B2B & B2C Businesses" },
+  { img: manufacturing, label: "Manufacturing", desc: "Promote products and reach B2B buyers.", alt: "Modern manufacturing facility with industrial machinery" },
+  { img: healthcare, label: "Healthcare & Clinics", desc: "Attract patients and manage enquiries.", alt: "Doctor consulting a patient in a modern private clinic" },
+  { img: salon, label: "Salons & Beauty", desc: "Fill appointment slots with local reach.", alt: "Premium modern salon interior with styling stations" },
+  { img: gym, label: "Gyms & Fitness", desc: "Drive memberships and trial sign-ups.", alt: "Modern fitness centre with professional equipment" },
+  { img: retail, label: "Retail & Supermarkets", desc: "Push offers and increase footfall.", alt: "Modern supermarket aisle with product displays" },
+  { img: realestate, label: "Real Estate", desc: "Generate and qualify property enquiries.", alt: "Premium modern apartment interior" },
+  { img: education, label: "Education", desc: "Fill batches with qualified admissions.", alt: "Modern training classroom with students and digital screen" },
+  { img: professional, label: "Professional Services", desc: "Build authority and steady enquiries.", alt: "Modern consulting office meeting room" },
+  { img: automotive, label: "Automotive", desc: "Bring buyers into showroom and service.", alt: "Modern automobile showroom interior" },
+  { img: other, label: "Other B2B & B2C", desc: "Adaptable for product and service brands.", alt: "Abstract premium business growth visual" },
 ];
 
 export function Industries() {
@@ -37,13 +35,26 @@ export function Industries() {
           />
         </Reveal>
 
-        <ul className="mt-14 grid grid-cols-2 gap-3 sm:grid-cols-3 lg:grid-cols-5">
+        <ul className="mt-14 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5">
           {INDUSTRIES.map((item, i) => (
             <Reveal key={item.label} delay={i * 50} as="li">
-              <div className="lift flex h-full flex-col items-center gap-3 rounded-2xl border border-border bg-white px-4 py-7 text-center shadow-soft hover:border-gold/50">
-                <item.icon className="h-6 w-6 shrink-0 text-gold-dark" strokeWidth={1.5} />
-                <span className="font-display text-[0.82rem] font-bold leading-snug text-navy">{item.label}</span>
-              </div>
+              <article className="lift group h-full overflow-hidden rounded-2xl border border-border bg-white shadow-soft transition-colors hover:border-gold/60">
+                <div className="aspect-[4/3] overflow-hidden bg-cream">
+                  <img
+                    src={item.img}
+                    alt={item.alt}
+                    width={768}
+                    height={576}
+                    loading="lazy"
+                    decoding="async"
+                    className="h-full w-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
+                  />
+                </div>
+                <div className="px-4 py-4">
+                  <h3 className="font-display text-[0.92rem] font-bold leading-snug text-navy">{item.label}</h3>
+                  <p className="mt-1.5 text-xs leading-relaxed text-muted-foreground">{item.desc}</p>
+                </div>
+              </article>
             </Reveal>
           ))}
         </ul>

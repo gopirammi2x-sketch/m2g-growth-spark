@@ -1,5 +1,6 @@
-import { ArrowRight, Activity, BarChart3, Bot, MessageCircle, Sparkles, TrendingUp, Users } from "lucide-react";
+import { ArrowRight, Activity, MessageCircle, Sparkles, TrendingUp, Users } from "lucide-react";
 import { CtaButton, Reveal, WHATSAPP_URL, scrollToId } from "./shared";
+import heroImage from "@/assets/hero-ecosystem.webp";
 
 function FloatCard({
   icon: Icon,
@@ -59,8 +60,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            We combine digital marketing, AI-powered advertising and sales automation to help businesses attract the
-            right audience, generate better leads and move enquiries towards conversion.
+            Digital + AI + Automation — connected into one growth system that attracts the right audience, generates
+            better leads and moves enquiries towards conversion.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
@@ -74,80 +75,36 @@ export function Hero() {
         </Reveal>
 
         <Reveal delay={120} className="is-visible relative mx-auto w-full max-w-lg lg:max-w-none">
-          <div className="relative rounded-3xl border border-navy/10 bg-white p-3 shadow-lift">
-            {/* browser bar */}
-            <div className="flex items-center gap-1.5 px-2 py-2">
-              <span className="h-2.5 w-2.5 rounded-full bg-destructive/40" />
-              <span className="h-2.5 w-2.5 rounded-full bg-gold/60" />
-              <span className="h-2.5 w-2.5 rounded-full bg-navy/20" />
-              <span className="ml-3 h-5 flex-1 rounded-md bg-cream" />
-            </div>
-
-            <div className="rounded-2xl bg-navy p-5 text-white">
-              <div className="flex items-center justify-between">
-                <p className="font-display text-sm font-bold tracking-tight">Growth Dashboard</p>
-                <span className="inline-flex items-center gap-1.5 rounded-full bg-gold/20 px-2.5 py-1 text-[0.6rem] font-bold uppercase tracking-[0.14em] text-gold">
-                  <span className="h-1.5 w-1.5 rounded-full bg-gold" /> Live
-                </span>
-              </div>
-
-              <div className="mt-4 grid grid-cols-3 gap-2.5">
-                {[
-                  { icon: Users, k: "Reach", v: "84.2K" },
-                  { icon: BarChart3, k: "CTR", v: "4.8%" },
-                  { icon: TrendingUp, k: "Pipeline", v: "+165%" },
-                ].map((s) => (
-                  <div key={s.k} className="rounded-xl bg-white/5 p-3 ring-1 ring-white/10">
-                    <s.icon className="h-4 w-4 text-gold" />
-                    <p className="mt-2 text-[0.6rem] uppercase tracking-[0.12em] text-beige/60">{s.k}</p>
-                    <p className="font-display text-sm font-extrabold">{s.v}</p>
-                  </div>
-                ))}
-              </div>
-
-              <div className="mt-4 flex h-28 items-end gap-2 rounded-xl bg-white/5 p-3 ring-1 ring-white/10">
-                {[32, 48, 40, 62, 55, 78, 70, 92].map((h, i) => (
-                  <span
-                    key={i}
-                    style={{ height: `${h}%` }}
-                    className={`flex-1 rounded-t-sm ${i > 4 ? "bg-gold" : "bg-white/25"}`}
-                  />
-                ))}
-              </div>
-
-              <div className="mt-4 space-y-2">
-                {[
-                  { icon: Bot, t: "AI ad creative generated", s: "Reel • 30s" },
-                  { icon: Activity, t: "Lead validated & routed", s: "n8n workflow" },
-                ].map((r) => (
-                  <div key={r.t} className="flex items-center gap-3 rounded-xl bg-white/5 px-3 py-2.5 ring-1 ring-white/10">
-                    <r.icon className="h-4 w-4 shrink-0 text-gold" />
-                    <span className="min-w-0 flex-1 truncate text-xs font-medium text-beige/90">{r.t}</span>
-                    <span className="shrink-0 text-[0.6rem] uppercase tracking-[0.1em] text-beige/50">{r.s}</span>
-                  </div>
-                ))}
-              </div>
-            </div>
+          <div className="overflow-hidden rounded-3xl border border-navy/10 bg-navy shadow-lift">
+            <img
+              src={heroImage}
+              width={1280}
+              height={1024}
+              fetchPriority="high"
+              decoding="async"
+              alt="Business growth ecosystem connecting digital marketing, AI, advertising, leads, automation, sales and analytics"
+              className="h-full w-full object-cover"
+            />
           </div>
 
           <FloatCard
             icon={Users}
-            label="Leads Generated"
-            value="1,245"
+            label="Digital Marketing"
+            value="Reach"
             delay="0s"
-            className="-left-2 top-16 sm:-left-8 lg:-left-10"
-          />
-          <FloatCard
-            icon={TrendingUp}
-            label="Sales"
-            value="+165%"
-            delay="1.4s"
-            className="-right-2 top-1/2 sm:-right-6"
+            className="-left-2 top-10 sm:-left-8 lg:-left-10"
           />
           <FloatCard
             icon={Activity}
             label="Automation"
-            value="Active"
+            value="Connected"
+            delay="1.4s"
+            className="-right-2 top-1/2 sm:-right-6"
+          />
+          <FloatCard
+            icon={TrendingUp}
+            label="Outcome"
+            value="Growth"
             delay="2.6s"
             className="-bottom-6 left-6 sm:left-10"
           />
