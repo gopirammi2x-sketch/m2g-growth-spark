@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState, type ReactNode } from "react";
 import { cn } from "@/lib/utils";
+import m2gLogo from "@/assets/m2g-logo.png.asset.json";
 
 export const WHATSAPP_URL = "https://wa.me/919655549132";
 export const PHONE_TEL = "tel:+919655549132";
