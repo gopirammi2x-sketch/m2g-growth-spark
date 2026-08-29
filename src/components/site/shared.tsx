@@ -52,31 +52,17 @@ export function Reveal({
 
 export function Logo({ className, variant = "dark" }: { className?: string; variant?: "dark" | "light" }) {
   return (
-    <span className={cn("flex items-center gap-2.5", className)}>
-      <span
-        aria-hidden
-        className="grid h-10 w-10 shrink-0 place-items-center rounded-xl bg-navy font-display text-[0.95rem] font-extrabold tracking-tight text-gold ring-1 ring-gold/40"
-      >
-        M2G
-      </span>
-      <span className="min-w-0 leading-tight">
-        <span
-          className={cn(
-            "block font-display text-[0.95rem] font-extrabold tracking-tight",
-            variant === "light" ? "text-white" : "text-navy",
-          )}
-        >
-          M2G
-        </span>
-        <span
-          className={cn(
-            "block text-[0.62rem] font-semibold uppercase tracking-[0.18em]",
-            variant === "light" ? "text-beige/70" : "text-mute",
-          )}
-        >
-          Business Consultants
-        </span>
-      </span>
+    <span className={cn("flex items-center", className)}>
+      <img
+        src={m2gLogo.url}
+        alt="M2G Business Consultants — Digital, AI, Automation"
+        width={220}
+        height={147}
+        className={cn(
+          "h-11 w-auto object-contain sm:h-12",
+          variant === "light" && "rounded-lg bg-white/95 px-2.5 py-1.5",
+        )}
+      />
     </span>
   );
 }
