@@ -77,7 +77,7 @@ export function Contact() {
                   rel={c.href.startsWith("http") ? "noopener noreferrer" : undefined}
                   className="group grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4"
                 >
-                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-gold/15 text-gold ring-1 ring-gold/25 transition-colors group-hover:bg-gold group-hover:text-navy">
+                  <span className="grid h-11 w-11 shrink-0 place-items-center rounded-xl bg-gold/15 text-gold ring-1 ring-gold/25 transition-colors group-hover:bg-gold group-hover:text-cream">
                     <c.icon className="h-4.5 w-4.5" />
                   </span>
                   <span className="min-w-0">
@@ -171,7 +171,7 @@ export function Contact() {
 
             <button
               type="submit"
-              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold px-6 py-3.5 font-display text-[0.78rem] font-extrabold uppercase tracking-[0.12em] text-navy shadow-[var(--shadow-gold)] transition-all hover:-translate-y-0.5 hover:bg-gold-dark hover:text-white"
+              className="mt-6 inline-flex w-full items-center justify-center gap-2 rounded-full bg-gold px-6 py-3.5 font-display text-[0.78rem] font-extrabold uppercase tracking-[0.12em] text-cream shadow-[var(--shadow-gold)] transition-all hover:-translate-y-0.5 hover:bg-gold-dark hover:text-white"
             >
               Request a Free Consultation <ArrowRight className="h-4 w-4" />
             </button>
