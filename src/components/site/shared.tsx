@@ -118,7 +118,7 @@ export function CtaButton({
   const base =
     "inline-flex items-center justify-center gap-2 rounded-full px-6 py-3 font-display text-[0.78rem] font-extrabold uppercase tracking-[0.12em] transition-all duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-gold focus-visible:ring-offset-2";
   const styles = {
-    gold: "bg-gold text-navy shadow-[var(--shadow-gold)] hover:bg-gold-dark hover:text-white hover:-translate-y-0.5",
+    gold: "bg-gold text-cream shadow-[var(--shadow-gold)] hover:bg-gold-dark hover:text-white hover:-translate-y-0.5",
     outline: "border border-navy/20 bg-white/70 text-navy hover:border-gold hover:text-gold-dark hover:-translate-y-0.5",
     navy: "bg-navy text-white hover:bg-navy-2 hover:-translate-y-0.5",
   }[variant];
