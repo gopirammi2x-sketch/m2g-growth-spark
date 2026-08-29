@@ -53,6 +53,7 @@
   --color-gold: var(--gold);
   --color-gold-dark: var(--gold-dark);
   --color-beige: var(--beige);
+  --color-lime: var(--lime);
   --color-cream: var(--cream);
   --color-ink: var(--ink);
   --color-mute: var(--mute);
@@ -62,21 +63,22 @@
 
   --shadow-soft: 0 1px 2px oklch(0.2 0.04 260 / 0.04), 0 8px 24px oklch(0.2 0.04 260 / 0.06);
   --shadow-lift: 0 2px 4px oklch(0.2 0.04 260 / 0.05), 0 18px 45px oklch(0.2 0.04 260 / 0.12);
-  --shadow-gold: 0 10px 30px oklch(0.68 0.12 78 / 0.28);
+  --shadow-gold: 0 10px 30px oklch(0.6 0.17 252 / 0.32);
 }
 
 :root {
   --radius: 0.875rem;
 
-  /* brand palette (hex sources: #12213B #1B3152 #C99318 #A87508 #F8F0DF #FFF8E9 #243047 #667085) */
-  --navy: oklch(0.256 0.045 262);
-  --navy-2: oklch(0.324 0.056 258);
-  --gold: oklch(0.681 0.126 78.6);
-  --gold-dark: oklch(0.586 0.116 74);
-  --beige: oklch(0.955 0.026 88);
-  --cream: oklch(0.976 0.022 92);
-  --ink: oklch(0.29 0.032 265);
-  --mute: oklch(0.556 0.024 264);
+  /* brand palette from the M2G logo: deep navy, azure/cyan blue, growth green */
+  --navy: oklch(0.257 0.072 262);
+  --navy-2: oklch(0.34 0.093 260);
+  --gold: oklch(0.62 0.175 251);
+  --gold-dark: oklch(0.5 0.16 253);
+  --lime: oklch(0.72 0.18 148);
+  --beige: oklch(0.958 0.018 240);
+  --cream: oklch(0.98 0.012 240);
+  --ink: oklch(0.29 0.045 264);
+  --mute: oklch(0.556 0.03 258);
 
   --background: oklch(1 0 0);
   --foreground: var(--ink);
@@ -85,7 +87,7 @@
   --popover: oklch(1 0 0);
   --popover-foreground: var(--ink);
   --primary: var(--gold);
-  --primary-foreground: oklch(0.22 0.03 262);
+  --primary-foreground: oklch(0.99 0.005 240);
   --secondary: var(--beige);
   --secondary-foreground: var(--navy);
   --muted: var(--cream);
@@ -94,8 +96,8 @@
   --accent-foreground: var(--navy);
   --destructive: oklch(0.577 0.245 27.325);
   --destructive-foreground: oklch(0.984 0.003 247.858);
-  --border: oklch(0.912 0.012 90);
-  --input: oklch(0.9 0.012 90);
+  --border: oklch(0.912 0.014 245);
+  --input: oklch(0.9 0.014 245);
   --ring: var(--gold);
 }
 
@@ -150,7 +152,7 @@
   height: 3px;
   width: 3.5rem;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--gold), var(--gold-dark));
+  background: linear-gradient(90deg, var(--gold), var(--lime));
 }
 
 @keyframes m2g-float {
