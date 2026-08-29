@@ -122,7 +122,7 @@ export function Services() {
 
                 <div className={i % 2 === 1 ? "lg:order-1" : ""}>
                   <div className="flex items-center gap-3">
-                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-gold/12 text-gold-dark ring-1 ring-gold/25 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:bg-gold group-hover:text-navy">
+                    <span className="grid h-11 w-11 shrink-0 place-items-center rounded-2xl bg-gold/12 text-gold-dark ring-1 ring-gold/25 transition-all duration-300 group-hover:-translate-y-0.5 group-hover:bg-gold group-hover:text-cream">
                       <s.icon className="h-5 w-5" />
                     </span>
                     <span className="eyebrow">{s.no} — {s.title}</span>
