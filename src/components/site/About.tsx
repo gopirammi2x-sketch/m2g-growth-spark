@@ -1,5 +1,6 @@
 import { Quote } from "lucide-react";
 import { Reveal } from "./shared";
+import founderPhoto from "@/assets/founder-gopi-gopal.jpg.asset.json";
 
 const STATS = [
   { k: "25+", v: "Years Experience" },
