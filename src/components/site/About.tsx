@@ -1,5 +1,6 @@
 import { Quote } from "lucide-react";
 import { Reveal } from "./shared";
+import founderPhoto from "@/assets/founder-gopi-gopal.jpg.asset.json";
 
 const STATS = [
   { k: "25+", v: "Years Experience" },
@@ -59,9 +60,13 @@ export function About() {
         <Reveal delay={120}>
           <div className="rounded-3xl border border-border bg-cream p-8 shadow-soft">
             <div className="grid grid-cols-[auto_minmax(0,1fr)] items-center gap-4">
-              <span className="grid h-16 w-16 shrink-0 place-items-center rounded-2xl bg-navy font-display text-xl font-extrabold text-gold ring-1 ring-gold/40">
-                GG
-              </span>
+              <img
+                src={founderPhoto.url}
+                alt="Gopi Gopal — Founder & Business Consultant at M2G"
+                width={64}
+                height={64}
+                className="h-16 w-16 shrink-0 rounded-2xl object-cover ring-1 ring-gold/40"
+              />
               <span className="min-w-0">
                 <span className="block font-display text-xl font-extrabold text-navy">Gopi Gopal</span>
                 <span className="block text-sm font-semibold text-gold-dark">Founder &amp; Business Consultant</span>
