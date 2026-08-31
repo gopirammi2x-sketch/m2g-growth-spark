@@ -84,7 +84,7 @@ export function About() {
             <div className="mt-7 grid grid-cols-2 gap-3">
               {STATS.map((s) => (
                 <div key={s.v} className="lift rounded-2xl border border-border bg-white px-5 py-6 text-center shadow-soft">
-                  <p className="font-display text-3xl font-extrabold text-gold-dark">{s.k}</p>
+                  <p className="font-display text-3xl font-extrabold text-brand">{s.k}</p>
                   <p className="mt-1.5 text-[0.7rem] font-semibold uppercase tracking-[0.12em] text-mute">{s.v}</p>
                 </div>
               ))}

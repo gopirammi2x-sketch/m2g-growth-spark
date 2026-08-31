@@ -13,7 +13,7 @@ export function CredibilityStrip() {
         {ITEMS.map((item, i) => (
           <div key={item} className="flex items-center gap-6">
             <span className="text-[0.68rem] font-bold uppercase tracking-[0.16em] text-navy/70">{item}</span>
-            {i < ITEMS.length - 1 ? <span aria-hidden className="hidden h-1 w-1 rounded-full bg-gold sm:block" /> : null}
+            {i < ITEMS.length - 1 ? <span aria-hidden className="hidden h-1 w-1 rounded-full bg-brand sm:block" /> : null}
           </div>
         ))}
       </div>

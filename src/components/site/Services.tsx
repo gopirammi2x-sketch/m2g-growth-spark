@@ -150,7 +150,7 @@ export function Services() {
                   <ul className="mt-6 grid gap-2.5 sm:grid-cols-2">
                     {s.points.map((p) => (
                       <li key={p} className="flex gap-2.5 text-sm text-ink/85">
-                        <Check className="mt-0.5 h-4 w-4 shrink-0 text-gold-dark" />
+                        <Check className="mt-0.5 h-4 w-4 shrink-0 text-brand" />
                         <span>{p}</span>
                       </li>
                     ))}
