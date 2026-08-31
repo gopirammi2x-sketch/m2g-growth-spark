@@ -53,8 +53,8 @@ export function Hero() {
           <h1 className="mt-6 font-display text-[2.1rem] font-extrabold leading-[1.08] text-navy sm:text-5xl lg:text-[3.4rem]">
             Make your business
             <br />
-            <span className="text-gold-dark">more visible</span>,{" "}
-            <span className="text-gold-dark">more efficient</span>
+            <span className="text-navy">more visible</span>,{" "}
+            <span className="text-navy">more efficient</span>
             <br />
             &amp; <span className="text-gold-dark">more ready to grow</span>.
           </h1>
