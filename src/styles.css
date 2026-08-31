@@ -164,7 +164,7 @@
   height: 3px;
   width: 3.5rem;
   border-radius: 999px;
-  background: linear-gradient(90deg, var(--gold), var(--lime));
+  background: linear-gradient(90deg, var(--brand), var(--lime));
 }
 
 @keyframes m2g-float {
