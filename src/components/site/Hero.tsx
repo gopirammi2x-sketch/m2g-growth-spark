@@ -56,7 +56,7 @@ export function Hero() {
             <span className="text-navy">more visible</span>,{" "}
             <span className="text-navy">more efficient</span>
             <br />
-            &amp; <span className="text-gold-dark">more ready to grow</span>.
+            &amp; <span className="text-brand">more ready to grow</span>.
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
