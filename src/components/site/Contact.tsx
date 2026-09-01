@@ -176,6 +176,23 @@ export function Contact() {
             >
               Request a Free Consultation <ArrowRight className="h-4 w-4" />
             </button>
+
+            <div className="mt-6 flex flex-col items-center gap-3 rounded-2xl border border-white/10 bg-white/5 p-5 text-center">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-beige/70">
+                Or scan to WhatsApp us directly
+              </p>
+              <img
+                src={whatsappQr.url}
+                alt="WhatsApp QR code for Gopi Gopal — scan to start a chat"
+                width={180}
+                height={180}
+                className="h-44 w-44 rounded-xl object-contain ring-1 ring-white/10"
+                loading="lazy"
+              />
+              <p className="max-w-[16rem] text-xs leading-relaxed text-beige/60">
+                Scan this code with your WhatsApp camera to message Gopi directly.
+              </p>
+            </div>
           </form>
         </Reveal>
       </div>
