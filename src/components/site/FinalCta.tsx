@@ -24,6 +24,23 @@ export function FinalCta() {
                 <MessageCircle className="h-4 w-4" /> Chat on WhatsApp
               </CtaButton>
             </div>
+
+            <div className="mt-8 flex flex-col items-center gap-3">
+              <p className="text-xs font-semibold uppercase tracking-[0.12em] text-muted-foreground">
+                Scan to chat on WhatsApp
+              </p>
+              <img
+                src={whatsappQr.url}
+                alt="WhatsApp QR code for M2G — scan to start a chat"
+                width={160}
+                height={160}
+                className="h-40 w-40 rounded-2xl object-contain ring-1 ring-gold/30 shadow-soft"
+                loading="lazy"
+              />
+              <p className="max-w-[16rem] text-xs leading-relaxed text-muted-foreground">
+                Scan this code with your WhatsApp camera to message us directly.
+              </p>
+            </div>
           </div>
         </div>
       </Reveal>
