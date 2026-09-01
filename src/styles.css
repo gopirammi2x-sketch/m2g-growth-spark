@@ -50,6 +50,9 @@
   /* M2G brand: navy primary + green accent (from the logo) */
   --color-navy: var(--navy);
   --color-navy-2: var(--navy-2);
+  /* logo bright blue — used for prominent headlines */
+  --color-logo-blue: var(--logo-blue);
+  --color-logo-blue-dark: var(--logo-blue-dark);
   /* brand accent (green). `gold-*` kept as aliases for existing markup */
   --color-brand: var(--brand);
   --color-brand-dark: var(--brand-dark);
