@@ -128,7 +128,7 @@ export function Services() {
                     <span className="eyebrow">{s.no} — {s.title}</span>
                   </div>
 
-                  <h3 className="mt-5 font-display text-2xl font-extrabold leading-tight tracking-tight text-navy sm:text-[2rem]">
+                  <h3 className="mt-5 font-display text-2xl font-extrabold leading-tight tracking-tight text-logo-blue sm:text-[2rem]">
                     {s.headline}
                   </h3>
                   <div className="gold-rule mt-5" />

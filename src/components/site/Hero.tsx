@@ -50,11 +50,10 @@ export function Hero() {
             Digital • AI • Automation
           </p>
 
-          <h1 className="mt-6 font-display text-[2.1rem] font-extrabold leading-[1.08] text-navy sm:text-5xl lg:text-[3.4rem]">
+          <h1 className="mt-6 font-display text-[2.1rem] font-extrabold leading-[1.08] text-logo-blue sm:text-5xl lg:text-[3.4rem]">
             Make your business
             <br />
-            <span className="text-navy">more visible</span>,{" "}
-            <span className="text-navy">more efficient</span>
+            more visible, more efficient
             <br />
             &amp; <span className="text-brand">more ready to grow</span>.
           </h1>
