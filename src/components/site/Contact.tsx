@@ -1,6 +1,7 @@
 import { useState, type FormEvent } from "react";
 import { ArrowRight, Mail, MapPin, MessageCircle, Phone } from "lucide-react";
 import { EMAIL, PHONE_TEL, Reveal } from "./shared";
+import whatsappQr from "@/assets/whatsapp-qr-code.jpeg.asset.json";
 
 const SERVICES = [
   "Digital Marketing & Lead Generation",
