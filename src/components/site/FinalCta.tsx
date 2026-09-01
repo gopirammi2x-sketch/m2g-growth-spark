@@ -8,7 +8,7 @@ export function FinalCta() {
         <div className="relative overflow-hidden rounded-[2rem] border border-gold/30 bg-beige px-6 py-14 text-center sm:px-14">
           <div aria-hidden className="pointer-events-none absolute -right-24 -top-24 h-72 w-72 rounded-full bg-gold/15 blur-3xl" />
           <div className="relative">
-            <h2 className="mx-auto max-w-3xl font-display text-3xl font-extrabold leading-[1.14] text-navy sm:text-4xl">
+            <h2 className="mx-auto max-w-3xl font-display text-3xl font-extrabold leading-[1.14] text-logo-blue sm:text-4xl">
               Ready to make your marketing smarter?
             </h2>
             <p className="mx-auto mt-5 max-w-2xl text-base leading-relaxed text-muted-foreground">

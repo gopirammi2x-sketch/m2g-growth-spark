@@ -23,7 +23,7 @@ export function About() {
       <div className="mx-auto grid max-w-7xl items-start gap-14 px-4 sm:px-6 lg:grid-cols-[1.05fr_0.95fr] lg:px-8">
         <Reveal>
           <p className="eyebrow">Meet the Founder</p>
-          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-navy sm:text-4xl">
+          <h2 className="mt-3 font-display text-3xl font-extrabold leading-[1.12] text-logo-blue sm:text-4xl">
             Business experience meets
             <br className="hidden sm:block" /> AI-first marketing.
           </h2>
