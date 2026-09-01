@@ -30,18 +30,18 @@ export function About() {
           <div className="gold-rule mt-5" />
 
           <div className="mt-7 space-y-4 text-base leading-relaxed text-muted-foreground">
-            <p>
-              Gopi Gopal brings more than two decades of experience across sales, marketing, business development and
-              new product introduction, with deep exposure to the power-generation and industrial business environment.
+            <p className="font-display text-lg font-bold text-logo-blue">
+              Young Minds. Experienced Thinking.
             </p>
             <p>
-              His professional experience includes working with global names such as Cummins, Caterpillar and
-              Kirloskar.
+              We are a team of young and experienced professionals with 25+ years of corporate experience across MNCs,
+              engineering, automotive, IT consulting and digital marketing.
             </p>
             <p>
-              Today, that business understanding is combined with digital marketing, AI-powered advertising and
-              automation to help businesses build practical growth systems.
+              We help small and growing businesses improve brand visibility, generate quality leads and automate their
+              marketing activities using practical digital and AI-powered solutions.
             </p>
+            <p>Our focus is simple: smarter marketing, better leads and improved business growth.</p>
           </div>
 
           <div className="mt-9 rounded-3xl border border-gold/25 bg-cream p-7">
