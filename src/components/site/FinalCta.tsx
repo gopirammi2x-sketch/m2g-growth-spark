@@ -1,5 +1,6 @@
 import { ArrowRight, MessageCircle } from "lucide-react";
 import { CtaButton, Reveal, WHATSAPP_URL, scrollToId } from "./shared";
+import whatsappQr from "@/assets/whatsapp-qr-code.jpeg.asset.json";
 
 export function FinalCta() {
   return (
