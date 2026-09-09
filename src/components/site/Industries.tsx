@@ -31,7 +31,7 @@ export function Industries() {
           <SectionHeading
             eyebrow="Industries We Serve"
             title="Solutions for different types of businesses"
-            subtitle="Our approach can be adapted for B2B, B2C, product-based and service-based businesses."
+            subtitle="Whether you are a local business, growing SME, product company or service business, our Digital, AI, Automation and E-Commerce solutions can be adapted to your needs."
           />
         </Reveal>
 

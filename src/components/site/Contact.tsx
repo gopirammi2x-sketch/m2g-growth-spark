@@ -7,7 +7,9 @@ const SERVICES = [
   "Digital Marketing & Lead Generation",
   "AI Advertising",
   "Sales & Marketing Automation",
-  "All Three",
+  "AI-Powered Business Services",
+  "E-Commerce Solutions",
+  "Multiple Services",
 ];
 
 const inputClass =
@@ -52,7 +54,7 @@ export function Contact() {
           <div className="gold-rule mt-5" />
           <p className="mt-6 max-w-lg text-base leading-relaxed text-beige/75">
             Tell us what you are trying to achieve. Whether you need more leads, better advertisements or a connected
-            sales process, let&apos;s start with a simple conversation.
+             sales process, practical AI support or an online store, let&apos;s start with a simple conversation.
           </p>
 
           <div className="mt-9 rounded-2xl border border-white/10 bg-white/5 p-6">

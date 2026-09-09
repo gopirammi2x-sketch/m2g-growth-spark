@@ -4,7 +4,7 @@ import founderPhoto from "@/assets/founder-gopi-gopal.jpg.asset.json";
 
 const STATS = [
   { k: "25+", v: "Years Experience" },
-  { k: "3", v: "Core Verticals" },
+  { k: "5", v: "Core Verticals" },
   { k: "AI", v: "Powered Marketing" },
   { k: "n8n", v: "Automation" },
 ];

@@ -47,7 +47,7 @@ export function Hero() {
         <Reveal className="is-visible">
           <p className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-white/70 px-4 py-1.5 eyebrow">
             <Sparkles className="h-3.5 w-3.5" />
-            Digital • AI • Automation
+            Digital • AI • Automation • E-Commerce
           </p>
 
           <h1 className="mt-6 font-display text-[2.1rem] font-extrabold leading-[1.08] text-logo-blue sm:text-5xl lg:text-[3.4rem]">
@@ -59,8 +59,8 @@ export function Hero() {
           </h1>
 
           <p className="mt-6 max-w-xl text-base leading-relaxed text-muted-foreground sm:text-lg">
-            Digital + AI + Automation — connected into one growth system that attracts the right audience, generates
-            better leads and moves enquiries towards conversion.
+            Digital + AI + Automation + E-Commerce — practical solutions designed to improve visibility, generate
+            quality leads, streamline repetitive work and support business growth.
           </p>
 
           <div className="mt-9 flex flex-col gap-3 sm:flex-row">
