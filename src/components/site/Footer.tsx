@@ -25,7 +25,7 @@ export function Footer() {
           <div>
             <Logo variant="light" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-beige/65">
-              Driving business growth through Digital Marketing, AI Advertising and Automation.
+              Supporting business growth through Digital Marketing, AI, Automation and E-Commerce.
             </p>
           </div>
 
