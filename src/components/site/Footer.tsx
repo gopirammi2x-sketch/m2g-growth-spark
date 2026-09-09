@@ -9,7 +9,13 @@ const LINKS = [
   { label: "Contact", id: "contact" },
 ];
 
-const SERVICES = ["Digital Marketing & Lead Generation", "AI Advertising", "Sales & Marketing Automation"];
+const SERVICES = [
+  { label: "Digital Marketing & Lead Generation", id: "digital-marketing" },
+  { label: "AI Advertising", id: "ai-advertising" },
+  { label: "Sales & Marketing Automation", id: "automation" },
+  { label: "AI-Powered Business Services", id: "ai-business-services" },
+  { label: "E-Commerce Solutions", id: "ecommerce-solutions" },
+];
 
 export function Footer() {
   return (
@@ -19,7 +25,7 @@ export function Footer() {
           <div>
             <Logo variant="light" />
             <p className="mt-5 max-w-xs text-sm leading-relaxed text-beige/65">
-              Driving business growth through Digital Marketing, AI Advertising and Automation.
+              Supporting business growth through Digital Marketing, AI, Automation and E-Commerce.
             </p>
           </div>
 
@@ -44,13 +50,13 @@ export function Footer() {
             <h3 className="font-display text-xs font-extrabold uppercase tracking-[0.18em] text-gold">Services</h3>
             <ul className="mt-5 space-y-2.5">
               {SERVICES.map((s) => (
-                <li key={s}>
+                <li key={s.id}>
                   <button
                     type="button"
-                    onClick={() => scrollToId("services")}
+                    onClick={() => scrollToId(s.id)}
                     className="text-left text-sm text-beige/70 transition-colors hover:text-gold"
                   >
-                    {s}
+                    {s.label}
                   </button>
                 </li>
               ))}

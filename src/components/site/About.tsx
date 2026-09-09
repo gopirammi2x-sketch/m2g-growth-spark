@@ -4,7 +4,7 @@ import founderPhoto from "@/assets/founder-gopi-gopal.jpg.asset.json";
 
 const STATS = [
   { k: "25+", v: "Years Experience" },
-  { k: "3", v: "Core Verticals" },
+  { k: "5", v: "Core Verticals" },
   { k: "AI", v: "Powered Marketing" },
   { k: "n8n", v: "Automation" },
 ];
@@ -39,7 +39,7 @@ export function About() {
             </p>
             <p>
               We help small and growing businesses improve brand visibility, generate quality leads and automate their
-              marketing activities using practical digital and AI-powered solutions.
+              marketing activities and establish an online presence using practical digital, AI-powered and e-commerce solutions.
             </p>
             <p>Our focus is simple: smarter marketing, better leads and improved business growth.</p>
           </div>

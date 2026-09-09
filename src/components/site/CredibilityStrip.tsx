@@ -3,7 +3,7 @@ const ITEMS = [
   "Sales & Marketing",
   "Business Development",
   "Industrial & Powergen Exposure",
-  "Digital • AI • Automation",
+  "Digital • AI • Automation • E-Commerce",
 ];
 
 export function CredibilityStrip() {

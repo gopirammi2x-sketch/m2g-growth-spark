@@ -12,9 +12,9 @@ import { FinalCta } from "@/components/site/FinalCta";
 import { Contact } from "@/components/site/Contact";
 import { Footer } from "@/components/site/Footer";
 
-const TITLE = "Mettugudisai Business Consultants | Digital Marketing, AI & Automation";
+const TITLE = "M2G | Digital, AI, Automation & E-Commerce";
 const DESC =
-  "Mettugudisai Business Consultants helps businesses grow through Digital Marketing, AI Advertising and Sales & Marketing Automation.";
+  "M2G helps growing businesses with digital marketing, AI advertising, business automation, AI services and e-commerce solutions.";
 
 export const Route = createFileRoute("/")({
   component: Index,
